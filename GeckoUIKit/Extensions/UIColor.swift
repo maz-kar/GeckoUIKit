@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import UIKit
+
+extension UIColor {
+    static let theme = ThemeColor()
+}
+
+struct ThemeColor {
+    let customAccent = UIColor(named: "CustomAccent")
+    let customBackground = UIColor(named: "CustomBackground")
+    let customRed = UIColor(named: "CustomRed")
+    let customGreen = UIColor(named: "CustomGreen")
+    let customSecondary = UIColor(named: "CustomSecondary")
+}
