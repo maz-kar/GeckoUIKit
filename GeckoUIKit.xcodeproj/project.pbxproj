@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6BD1FCE72C9DA0F700C2B1D5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6BD1FCE62C9DA0F700C2B1D5 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6BD1FCCE2C9DA05E00C2B1D5 /* GeckoUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeckoUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD1FCE62C9DA0F700C2B1D5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		6BD1FCC52C9DA05E00C2B1D5 = {
 			isa = PBXGroup;
 			children = (
+				6BD1FCE62C9DA0F700C2B1D5 /* README.md */,
 				6BD1FCD02C9DA05E00C2B1D5 /* GeckoUIKit */,
 				6BD1FCCF2C9DA05E00C2B1D5 /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD1FCE72C9DA0F700C2B1D5 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
