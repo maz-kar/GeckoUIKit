@@ -34,7 +34,6 @@ class CircleButtonView: UIView {
     private func setupView() {
         self.backgroundColor =  UIColor.theme.customBackground
         self.layer.cornerRadius = 25
-        //self.layer.masksToBounds = true
         self.layer.shadowColor = UIColor.gray.cgColor
         self.layer.shadowOpacity = 1.0
         self.layer.shadowOffset = CGSize(width: 0, height: 2)
